@@ -2,3 +2,7 @@ node_modules
 bundle.*
 dev.sqlite3
 .env
+
+# bulma
+**/bulma/*
+!**/bulma/css
