@@ -17,7 +17,7 @@ function Landing () {
                 </h2>
               </div>
               <div className="column p-6">
-                <Link to="/tabs" >
+                <Link to="/tabs">
                   <button className="button subtitle is-primary">
                     Start Learning!
                   </button>
