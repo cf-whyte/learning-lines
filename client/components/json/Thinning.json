@@ -1,0 +1,259 @@
+{
+  "title": "Thinning",
+  "author": "Eli Kent",
+  "year-created": "2010",
+  "scenes": [
+    {
+      "scene-num":1,
+      "characters": [
+        "Adam", "Billie", "Fraggle", "Isaac", "Lily", "Mel", "Troy"
+      ],
+      "conversations":[
+        {
+          "conversation":"A",
+          "lines":[
+            {
+              "num":1,
+              "char":"Troy",
+              "text":"Oh yeah. Nah. I was thinking of going down there too. Kinda thought I might get into physio. Changed my mind though. So when did you graduate?"
+            },
+            {
+              "num":2,
+              "char":"Mel",
+              "text":"About three years ago. Just been doing this since then. Every summer."
+            },
+            {
+              "num":3,
+              "char":"Billie",
+              "text":"a"
+            }
+          ]
+        },
+        {
+          "conversation":"B",
+          "lines":[
+            {
+              "num":1,
+              "char":"Troy",
+              "text":"Oh yeah. Nah. I was thinking of going down there too. Kinda thought I might get into physio. Changed my mind though. So when did you graduate?"
+            },
+            {
+              "num":2,
+              "char":"Mel",
+              "text":"About three years ago. Just been doing this since then. Every summer."
+            },
+            {
+              "num":3,
+              "char":"Troy",
+              "text":"Sweet. You enjoy it then?"
+            },
+            {
+              "num":4,
+              "char":"Mel",
+              "text":"Yeah it's okay. Getting less and less into it each year to be honest. So you guys all go to the same schol or?"
+            },
+            {
+              "num":5,
+              "char":"Troy",
+              "text":"Yeah. We all just finished 7th form."
+            },
+            {
+              "num":6,
+              "char":"Mel",
+              "text":"And you're heading off to the army?"
+            },
+            {
+              "num":7,
+              "char":"Troy",
+              "text":"Yeah."
+            },
+            {
+              "num":8,
+              "char":"Mel",
+              "text":"That's pretty heavy shit."
+            },
+            {
+              "num":9,
+              "char":"Troy",
+              "text":"I guess, yeah."
+            },
+            {
+              "num":10,
+              "char":"Mel",
+              "text":"Do you reckon you'll have to kill anyone?"
+            },
+            {
+              "num":11,
+              "char":"Troy",
+              "text":"I hope not."
+            },
+            {
+              "num":12,
+              "char":"Mel",
+              "text":"When do you leave?"
+            },
+            {
+              "num":13,
+              "char":"Troy",
+              "text":"New Years day."
+            },
+            {
+              "num":14,
+              "char":"Mel",
+              "text":"Hard luck. Um. Hey do you reckon you coud get your friends to chill out a bit, back there?"
+            },
+            {
+              "num":15,
+              "char":"Troy",
+              "text":"What? Oh, yeah, sure, no worries. Hey guys, calm down a bit ay? You're pissing off Mel."
+            }
+            ,
+            {
+              "num":16,
+              "char":"Billie",
+              "text":"Sorry."
+            },
+            {
+              "num":17,
+              "char":"Lily",
+              "text":"Hey can we change the music?"
+            },
+            {
+              "num":18,
+              "char":"Troy",
+              "text":"Sure. Yeah. What do you want?"
+            }
+          ]
+        },
+        {
+          "conversation":"C",
+          "lines":[
+            {
+
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene-num":2,
+      "characters": [
+        "Adam", "Isaac", "Troy"
+      ]
+    },
+    {
+      "scene-num":3,
+      "characters": [
+        "Billie", "Fraggle", "Lily"
+      ]
+    },
+    {
+      "scene-num":4,
+      "characters": [
+        "Adam", "Lily", "Mel", "Troy"
+      ]
+    },
+    {
+      "scene-num":5,
+      "characters": [
+        "Adam", "Billie", "Fraggle", "Isaac", "Lily"
+      ]
+    },
+    {
+      "scene-num":6,
+      "characters": [
+        "Adam", "Fraggle", "Isaac", "Lily"
+      ]
+    },
+    {
+      "scene-num":7,
+      "characters": [
+        "Billie","Troy"
+      ]
+    },
+    {
+      "scene-num":8,
+      "characters": [
+        "Adam","Fraggle", "Isaac", "Mel"
+      ]
+    },
+    {
+      "scene-num":9,
+      "characters": [
+       "Fraggle", "Mel"
+      ]
+    },
+    {
+      "scene-num":10,
+      "characters": [
+        "Adam", "Lily"
+      ]
+    },
+    {
+      "scene-num":11,
+      "characters": [
+        "Adam", "Isaac","Troy"
+      ]
+    },
+    {
+      "scene-num":12,
+      "characters": [
+        "Mel", "Troy"
+      ]
+    },
+    {
+      "scene-num":13,
+      "characters": [
+        "Adam", "Billie", "Fraggle", "Isaac", "Lily", "Troy"
+      ]
+    },
+    {
+      "scene-num":14,
+      "characters": [
+        "Billie", "Fraggle", "Lily", "Mel"
+      ]
+    },
+    {
+      "scene-num":15,
+      "characters": [
+        "Adam", "Isaac", "Troy"
+      ]
+    },
+    {
+      "scene-num":16,
+      "characters": [
+        "Billie", "Fraggle", "Lily"
+      ]
+    },
+    {
+      "scene-num":17,
+      "characters": [
+        "Isaac", "Troy"
+      ]
+    },
+    {
+      "scene-num":18,
+      "characters": [
+        "Adam", "Billie", "Fraggle", "Isaac", "Lily", "Troy"
+      ]
+    },
+    {
+      "scene-num":19,
+      "characters": [
+        "Billie", "Fraggle", "Mel", "Troy"
+      ]
+    },
+    {
+      "scene-num":20,
+      "characters": [
+        "Adam", "Isaac", "Lily"
+      ]
+    },
+    {
+      "scene-num":21,
+      "characters": [
+        "Adam", "Billie", "Fraggle", "Isaac", "Lily", "Mel", "Troy"
+      ]
+    }
+  ]
+}
