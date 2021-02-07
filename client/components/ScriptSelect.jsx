@@ -8,6 +8,7 @@ const scripts = [
     ' each others company and creating new memories. Throughout a summer of wild experiences, intimacy, love, challenges,' +
     ' disagreement and unity these friends all form unique bonds with one another.',
     author: 'Eli Kent, 2010',
+    tickets: 'https://www.iticket.co.nz/events/2020/dec/thinning#/information',
     characters: [
       {
         name: 'Troy',
@@ -42,6 +43,7 @@ const scripts = [
     title: 'As You Like It',
     description: 'As You Like It spoofs many of the conventions of poetry and literature dealing with love, such as the idea that love is a disease that brings suffering and torment to the lover, or the assumption that the male lover is the slave or servant of his mistress. ',
     author: 'William Shakespeare, 1603',
+    tickets: 'No show currently.',
     characters: [
       {
         name: 'Rosalind',
@@ -81,6 +83,7 @@ const scripts = [
     title: 'A Christmas Carol',
     description: 'A Christmas Carol recounts the story of Ebenezer Scrooge, an elderly miser who is visited by the ghost of his former business partner Jacob Marley and the spirits of Christmas Past, Present and Yet to Come. After their visits, Scrooge awakens on Christmas morning a changed man, embodying the spirit of Christmas.',
     author: 'Charles Dickens, 1843',
+    tickets: 'No show currently.',
     characters: [
       {
         name: 'Scrooge',
@@ -108,25 +111,29 @@ const scripts = [
 function ScriptSelect () {
   return (
     <>
-      {/* <Tabs/> */}
-
       <div className="container p-3">
         <div className="columns is-centered">
           <div className="column is-one-fifth">
-            <div className="box has-background-primary-light">
-              <p className=""><strong>Info:</strong> Read through the script descrtiptions and then select a character whos lines you want to learn.</p>
+            <div className="message is-info has-background-primary-light">
+              <p className="message-header"><strong>What to do now?</strong></p>
+              <p className="message-body">Read through the script descrtiptions and then select a script to learn lines from. Simply click on the script card or a character to continue.</p>
+            </div>
+            <div className="message is-success">
+              <p className="message-header"><strong>Why use Learning Lines?</strong></p>
+              <p className="message-body"><i>Learning Lines</i> provides an easy way to learn lines for a particular script and character. The aim is to learn lines through the web, faster than using a physical script.</p>
             </div>
           </div>
           {
             scripts.map(script => {
               return (
                 <>
-                  <Link to={'/scripts/' + script.title}>
+                  <Link to={'/scripts/' + script.title.toLowerCase()}>
                     <div key={script.title} className="column">
                       <div className="box">
                         <p className="title">{script.title}</p>
                         <p><strong>By:</strong> {script.author}</p>
                         <p><strong>Description:</strong> {script.description}</p>
+                        <p><strong>Tickets:</strong> Find tickets to the show <a href={script.tickets} target="_blank" rel="noreferrer">here</a>.</p>
                         <p><strong>Characters:</strong> </p>
                         <div className="buttons is-centered">
                           {
