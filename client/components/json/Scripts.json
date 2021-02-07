@@ -1,0 +1,31 @@
+{
+  "scripts":[
+    {
+      "title": "Thinning",
+      "description": "Six friends head to an apple orchard for the summer to make some money and spend their last bit of youth enjoying each others company and creating new memories. Throughout a summer of wild experiences, intimacy, love, challenges, disagreement and unity these friends all form unique bonds with one another.",
+      "author": "Eli Kent, 2010",
+      "tickets": "https://www.iticket.co.nz/events/2020/dec/thinning#/information",
+      "characters": [
+        "Troy", "Adam", "Isaac", "Lily", "Mel", "Billie", "Fraggle"
+      ]
+    },
+    {
+      "title": "As You Like It",
+      "description": "As You Like It spoofs many of the conventions of poetry and literature dealing with love, such as the idea that love is a disease that brings suffering and torment to the lover, or the assumption that the male lover is the slave or servant of his mistress. ",
+      "author": "William Shakespeare, 1603",
+      "tickets": "noshowcurrently",
+      "characters": [
+        "Rosalind", "Orlando", "Duke Senior", "Jaques", "Celia", "Duke Frederick", "Touchstone", "Oliver"
+      ]
+    },
+    {
+      "title": "A Christmas Carol",
+      "description": "A Christmas Carol recounts the story of Ebenezer Scrooge, an elderly miser who is visited by the ghost of his former business partner Jacob Marley and the spirits of Christmas Past, Present and Yet to Come. After their visits, Scrooge awakens on Christmas morning a changed man, embodying the spirit of Christmas.",
+      "author": "Charles Dickens, 1843",
+      "tickets": "noshowcurrently",
+      "characters": [
+        "Scrooge", "Jacob Marley", "Ghost-Past", "Ghost-Present", "Ghost-Future"
+      ]
+    }
+  ]
+}

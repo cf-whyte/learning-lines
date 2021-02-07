@@ -1,1 +1,6 @@
 @import 'bulma/css/bulma.css';
+
+.menu-vertical {
+  width: 200px;
+  align-self: flex-start;
+}
