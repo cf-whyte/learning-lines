@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const scripts = [
   {
@@ -119,29 +120,33 @@ function ScriptSelect () {
           {
             scripts.map(script => {
               return (
-                <div key={script.title} className="column">
-                  <div className="box">
-                    <p className="title">{script.title}</p>
-                    <p><strong>By:</strong> {script.author}</p>
-                    <p><strong>Description:</strong> {script.description}</p>
-                    <p><strong>Characters:</strong> </p>
-                    <div className="buttons is-centered">
-                      {
-                        script.characters.map(character => {
-                          return (
-                            <>
-                              <br/>
-                              <button key={character.name}
-                                className="button is-primary is-outlined is-rounded">
-                                {character.name}
-                              </button>
-                            </>
-                          )
-                        })
-                      }
+                <>
+                  <Link to={'/scripts/' + script.title}>
+                    <div key={script.title} className="column">
+                      <div className="box">
+                        <p className="title">{script.title}</p>
+                        <p><strong>By:</strong> {script.author}</p>
+                        <p><strong>Description:</strong> {script.description}</p>
+                        <p><strong>Characters:</strong> </p>
+                        <div className="buttons is-centered">
+                          {
+                            script.characters.map(character => {
+                              return (
+                                <>
+                                  <br/>
+                                  <button key={character.name}
+                                    className="button is-primary is-outlined is-rounded">
+                                    {character.name}
+                                  </button>
+                                </>
+                              )
+                            })
+                          }
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
+                  </Link>
+                </>
               )
             })
           }
