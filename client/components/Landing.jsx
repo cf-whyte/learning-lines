@@ -13,11 +13,11 @@ function Landing () {
                 Learning Lines
                 </h1>
                 <h2 className="subtitle is-size-3 is-italic">
-                A line learning tool.
+                A lines learning tool.
                 </h2>
               </div>
               <div className="column p-6">
-                <Link to="/tabs">
+                <Link to="/scripts">
                   <button className="button subtitle is-primary">
                     Start Learning!
                   </button>
