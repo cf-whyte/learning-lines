@@ -1,8 +1,15 @@
 import React from 'react'
+import { Route } from 'react-router-dom'
+
+import Landing from './Landing'
+import Tabs from './Tabs'
 
 function App () {
   return (
-    <h1>React Boilerplate</h1>
+    <>
+      <Route exact path='/' component={Landing}/>
+      <Route exact path='/tabs' component={Tabs}/>
+    </>
   )
 }
 
