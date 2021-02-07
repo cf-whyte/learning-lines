@@ -10,7 +10,6 @@ function Tabs () {
   const [selected, setSelected] = useState(plays[0])
 
   function handleClick (evt) {
-    console.log(evt.target.text)
     setSelected(evt.target.text)
   }
 
