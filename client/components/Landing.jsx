@@ -1,37 +1,32 @@
-import React, { useState } from 'react'
-
-const plays = [
-  'Thinning',
-  'As You Like It',
-  'A Chrismas Carol',
-  'Winx: A Kingdom in Crisis'
-]
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Landing () {
-  const [selected, setSelected] = useState(plays[0])
-
-  function handleClick (evt) {
-    console.log(evt.target.text)
-    setSelected(evt.target.text)
-  }
-
   return (
     <>
-      <div className="tabs is-boxed">
-        <ul>
-          {
-            plays.map(play => {
-              return (
-                <li key={play} className={
-                  play === selected ? 'is-active' : ''
-                } onClick={handleClick}>
-                  <a>{play}</a>
-                </li>
-              )
-            })
-          }
-        </ul>
-      </div>
+      <section className="hero is-primary is-fullheight">
+        <div className="hero-body">
+          <div className="container is-fluid">
+            <div className="columns is-centred">
+              <div className="column is-four-fifths">
+                <h1 className="title is-size-1 is-italic">
+                Learning Lines
+                </h1>
+                <h2 className="subtitle is-size-3 is-italic">
+                A line learning tool.
+                </h2>
+              </div>
+              <div className="column p-6">
+                <Link to="/tabs" >
+                  <button className="button subtitle is-primary">
+                    Start Learning!
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
