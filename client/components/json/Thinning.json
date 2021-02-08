@@ -2,6 +2,9 @@
   "title": "Thinning",
   "author": "Eli Kent",
   "year-created": "2010",
+  "characters":[
+    "Adam", "Billie", "Fraggle", "Isaac", "Lily", "Mel", "Troy"
+  ],
   "scenes": [
     {
       "scene-num":1,
@@ -14,18 +17,108 @@
           "lines":[
             {
               "num":1,
-              "char":"Troy",
-              "text":"Oh yeah. Nah. I was thinking of going down there too. Kinda thought I might get into physio. Changed my mind though. So when did you graduate?"
+              "char":"Billie",
+              "text":"I am so glad I never have to see that penis faced mofo ever / again."
             },
             {
               "num":2,
-              "char":"Mel",
-              "text":"About three years ago. Just been doing this since then. Every summer."
+              "char":"Lily",
+              "text":"He did have a penis face."
             },
             {
               "num":3,
               "char":"Billie",
-              "text":"a"
+              "text":"Shit yeah! He was Mr. Penis face. / His head is literally a penis."
+            },
+            {
+              "num":4,
+              "char":"Lily",
+              "text":"\"Mr. Penis face.\""
+            },
+            {
+              "num":5,
+              "char":"Billie",
+              "text":"He even has that massive vein down his forehead you know? / That throbs when he's getting all worked up over algebra."
+            },
+            {
+              "num":6,
+              "char":"Lily",
+              "text":"Oh I know. It's so gross. He's so gross. Oh yuck. And that / spittle that forms around his mouth."
+            },
+            {
+              "num":7,
+              "char":"Billie",
+              "text":"The spit! Right? I know! The cum spit. It looks like he's oozing jizz from between his lips."
+            },
+            {
+              "num":8,
+              "char":"Lily",
+              "text":"You ever have Mr. Geoffries, Fraggle?"
+            },
+            {
+              "num":9,
+              "char":"Fraggle",
+              "text":"What?"
+            },
+            {
+              "num":10,
+              "char":"Billie",
+              "text":"\"I'm sorry Mr Geoffries but I can't concentrate on my work because your head is a massive penis.\""
+            },
+            {
+              "num":11,
+              "char":"Lily",
+              "text":"Oh I would love to just say that to him."
+            },
+            {
+              "num":12,
+              "char":"Billie",
+              "text":"Missed / your chance."
+            },
+            {
+              "num":13,
+              "char":"Lily",
+              "text":"Missed my chance I guess. Yeah. / Pity."
+            },
+            {
+              "num":14,
+              "char":"Billie",
+              "text":"We could always leave a flaming bag of shit on his doorstep? / Or T.P. his house."
+            },
+            {
+              "num":15,
+              "char":"Lily",
+              "text":"We could do that. I didn't hate him that music though. / He was just gross."
+            },
+            {
+              "num":16,
+              "char":"Billie",
+              "text":"He was so seedy. I hated him leaning over me all the time with his pedophile breath. / So sick."
+            },
+            {
+              "num":17,
+              "char":"Lily",
+              "text":"I'll bet he is a pedo."
+            },
+            {
+              "num":18,
+              "char":"Billie",
+              "text":"Wouldn't you surprise me. Really wouldn't. Would you guys stop flirting? Jesus."
+            },
+            {
+              "num":19,
+              "char":"Troy",
+              "text":"Hey guys, calm down a bit ay? You're pissing off Mel."
+            },
+            {
+              "num":20,
+              "char":"Lily",
+              "text":"Hey can we change the music?"
+            },
+            {
+              "num":21,
+              "char":"Troy",
+              "text":"Sure. Yeah. What do you want?"
             }
           ]
         },
@@ -129,7 +222,145 @@
           "conversation":"C",
           "lines":[
             {
-
+              "num":1,
+              "char":"Fraggle",
+              "text":"Stop it."
+            },
+            {
+              "num":2,
+              "char":"Isaac",
+              "text":"What?"
+            },
+            {
+              "num":3,
+              "char":"Fraggle",
+              "text":"Stop / it."
+            },
+            {
+              "num":4,
+              "char":"Isaac",
+              "text":"What? I’m not doing / anything."
+            },
+            {
+              "num":5,
+              "char":"Fraggle",
+              "text":"What is that?"
+            },
+            {
+              "num":6,
+              "char":"Isaac",
+              "text":"What’s what? / I’m not doing anything."
+            },
+            {
+              "num":7,
+              "char":"Fraggle",
+              "text":"You keep… You are too."
+            },
+            {
+              "num":8,
+              "char":"Isaac",
+              "text":"You’re obviously just imagining / things. Settle down."
+            },
+            {
+              "num":9,
+              "char":"Fraggle",
+              "text":"I’m not. I am / settled."
+            },
+            {
+              "num":10,
+              "char":"Isaac",
+              "text":"Simmer down."
+            },
+            {
+              "num":11,
+              "char":"Fraggle",
+              "text":"am settled. You keep… hey! / I saw that. I saw it. You’ve got a thing."
+            },
+            {
+              "num":12,
+              "char":"Isaac",
+              "text":"What? Saw what? I didn’t do anything. What?!"
+            },
+            {
+              "num":13,
+              "char":"Fraggle",
+              "text":"You’ve got a party… blower thingy, I saw it, give it… What? Stop it!"
+            },
+            {
+              "num":14,
+              "char":"Isaac",
+              "text":"I’m not doing / anything!"
+            },
+            {
+              "num":15,
+              "char":"Fraggle",
+              "text":"You fucking are! / Just stop it. You’re so fucking annoying."
+            }
+            ,
+            {
+              "num":16,
+              "char":"Isaac",
+              "text":"Ow! Fuck off! Fuck off!"
+            },
+            {
+              "num":17,
+              "char":"Fraggle",
+              "text":"Stop… bloody… blowing… the thing into the back of my / head, dick!"
+            },
+            {
+              "num":18,
+              "char":"Isaac",
+              "text":"Chill…  out."
+            },
+            {
+              "num":19,
+              "char":"Fraggle",
+              "text":"Give it. Give it here. Give it."
+            },
+            {
+              "num":20,
+              "char":"Isaac",
+              "text":"Fuck off. No. What are you doing? / Oh my god what are you doing?"
+            },
+            {
+              "num":21,
+              "char":"Fraggle",
+              "text":"Give it Isaac. You’re so… just… let go. / Let go. Let go."
+            },
+            {
+              "num":22,
+              "char":"Isaac",
+              "text":"You let go. I’m not gonna let go. It’s mine. / I own it."
+            },
+            {
+              "num":23,
+              "char":"Fraggle",
+              "text":"Well stop fucking hitting me with it then!"
+            },
+            {
+              "num":24,
+              "char":"Isaac",
+              "text":"Fuck off! / Fuck off! Get… fuck off! Ow! What the shit, man? Stop it. Fuck you."
+            },
+            {
+              "num":25,
+              "char":"Fraggle",
+              "text":"Fuck you! You fuck off! Fuck off. Ow! Ow! Isaac. That hurts! Fuck off!"
+            },
+            {
+              "num":26,
+              "char":"Troy",
+              "text":"Hey guys, calm down a bit ay? You’re pissing off Mel."
+            },
+            {
+              "num":27,
+              "char":"Isaac",
+              "text":"You okay bro?"
+            },
+            {
+              "num":28,
+              "char":"Adam",
+              "text":"What? Oh. Yeah. Just thinking."
             }
           ]
         }

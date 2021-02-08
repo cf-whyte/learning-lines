@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import script from './json/Thinning.json'
 
-function ScriptsMenu () {
+function ScenesMenu () {
   const [selected, setSelected] = useState(script.characters[0])
 
   function handleClick (evt) {
@@ -12,15 +12,15 @@ function ScriptsMenu () {
   return (
     <>
       <ul className="menu-list">
-        <span><strong>CHARACTERS</strong></span>
+        <span><strong>SCENES</strong></span>
         {
-          script.characters.map(char => {
+          script.scenes.map(scene => {
             return (
               <>
                 <li className={
-                  char === selected ? 'is-active' : ''
+                  scene['scene-num'] === selected ? 'is-active' : ''
                 } onClick={handleClick}>
-                  <a key={char} value={char}>{char}</a>
+                  <a key={scene['scene-num']} value={scene['scene-num'] - 1}>Scene {scene['scene-num']}</a>
                 </li>
               </>
             )
@@ -31,4 +31,4 @@ function ScriptsMenu () {
   )
 }
 
-export default ScriptsMenu
+export default ScenesMenu

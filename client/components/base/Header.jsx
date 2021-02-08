@@ -15,7 +15,7 @@ function Header () {
         </div>
         <div className="hero-footer">
           <div className="button is-primary p-1">
-            <i onClick={() => { history.goBack() }}><a>Go Back</a></i>
+            <i onClick={() => { history.goBack() }}><a>BACK</a></i>
           </div>
         </div>
       </div>
