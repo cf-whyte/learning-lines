@@ -1,0 +1,17 @@
+html {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+	flex: auto;
+	align-self: center;
+	margin-left: 100px;
+}
+
+body {
+	left: 200px;
+}
+
+h1 {
+	font-size: xx-large;
+}
